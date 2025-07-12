@@ -1,0 +1,36 @@
+# aiden_companion/src/core/water_recipes.json
+[
+  {
+    "name": "Bright & Clean",
+    "description": "For delicate Washed Coffees (Ethiopian, Kenyan, some Central American Geishas)",
+    "recipe": {
+      "buffer_concentrate_g": 25,
+      "hardness_concentrate_g": 80,
+      "distilled_water_g": 895
+    },
+    "final_specs": "KH: 25 ppm, GH: 80 ppm",
+    "rationale": "Low buffer preserves the coffee's natural, bright acidity. High magnesium hardness powerfully extracts complex floral and fruit notes."
+  },
+  {
+    "name": "Sweet & Balanced (SCA Standard)",
+    "description": "A classic all-rounder for Washed/Honey Colombians, Brazilians, and Blends.",
+    "recipe": {
+      "buffer_concentrate_g": 40,
+      "hardness_concentrate_g": 70,
+      "distilled_water_g": 890
+    },
+    "final_specs": "KH: 40 ppm, GH: 70 ppm",
+    "rationale": "The SCA standard. Provides enough buffer to balance acidity without flattening it and enough hardness for a full extraction."
+  },
+  {
+    "name": "Tame the Funk",
+    "description": "For intense Naturals & Anaerobics (Fruit Bombs, Experimental Processes).",
+    "recipe": {
+      "buffer_concentrate_g": 50,
+      "hardness_concentrate_g": 90,
+      "distilled_water_g": 860
+    },
+    "final_specs": "KH: 50 ppm, GH: 90 ppm",
+    "rationale": "Higher buffer tames overly aggressive acidity for better balance. Higher hardness ensures the dense, sugary compounds in these beans are fully extracted."
+  }
+]
